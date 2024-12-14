@@ -2,11 +2,11 @@
 {
     public class UserAccountDBData
     {
-        public int uuid { get; set; }
-        public string nicName { get; set; }
+        public string UUID { get; set; }
+        public string NicName { get; set; }
 
-        public DateTime createdAt { get; set; }
-        public DateTime lastedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime LastedAt { get; set; }
 
     }
 }
